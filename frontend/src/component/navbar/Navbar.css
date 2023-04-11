@@ -1,0 +1,22 @@
+.selector{
+    width: 100%;
+    display: flex;
+    background-color: #6f6af8;
+    padding: 1rem;
+    font-size: .9rem;
+}
+.dropDown{
+    width: auto;
+    border-radius: 1rem;
+    margin-right: auto;
+}
+.help{
+    align-self: center;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.help:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}

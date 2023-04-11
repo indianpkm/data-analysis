@@ -1,0 +1,19 @@
+*{
+    margin: 0;padding: 0;
+}
+.container{
+    margin: 1rem;
+}
+body{
+
+    background-color: #eff4f7;
+}
+.upper{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+.lineChart{
+    width: 100%;
+    display: flex;
+}
