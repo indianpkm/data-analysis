@@ -12,7 +12,7 @@ function FetchData(props) {
 
   useEffect(() => {
     const fetchData = async () => {
-      const { data } = await axios.get("http://localhost:5000/getdata");
+      const { data } = await axios.get("https://data-analysis-g38r.onrender.com/getdata");
 
       let filteredData = data;
       filterKeys.forEach(key => {
